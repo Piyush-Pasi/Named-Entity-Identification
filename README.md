@@ -1,5 +1,5 @@
 # Implementing Named Entity Identification using SVM
-Code can also be downloaded at [link](https://drive.google.com/file/d/1KvPj-QWDxBco0Dil4bPH2JUnXtchlHr6/view?usp=sharing)
+To identity if a word is a named entity (NE) or not using Support Vector Machine Classifier. Code can also be downloaded at [link](https://drive.google.com/file/d/1KvPj-QWDxBco0Dil4bPH2JUnXtchlHr6/view?usp=sharing)
 
 
 *Platform* : Python Jupyter, Google Colab or VS Code.  
@@ -16,12 +16,12 @@ datasets library is used
 
 *Run all the cells* for training and testing of SVM model.
 
-## Extra implementation for the last evaluations
-***More features added  
-Two pass SVM added  
-Feature normalization done  
-Top 20 feature analysis  
-SVM with word embeddings added***
+## Features added
+- More features added: binary features like is next word NE, is previous word NE, does previous word starts with Capital letter, and so on... (see comments in code)
+- Two pass SVM added: In 1st pass predict NE or not. Use these for 2nd pass in test time to check if next word is NE or not (as next word output not available during test time)
+- Feature normalization  
+- Top 20 feature analysis  
+- SVM with word embeddings added
 
 ###### Caution:
 Run all cells for functions to be defined, Note and Cautions are mentioned in the Notebook as well
