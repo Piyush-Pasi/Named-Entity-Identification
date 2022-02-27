@@ -1,5 +1,5 @@
 # Implementing Named Entity Identification using SVM
-To identity if a word is a named entity (NE) or not using Support Vector Machine Classifier. Code can also be downloaded at [link](https://drive.google.com/file/d/1KvPj-QWDxBco0Dil4bPH2JUnXtchlHr6/view?usp=sharing)
+To identity if a word is a named entity (NE) or not using Support Vector Machine Classifier. Code & data files can also be downloaded at [link](https://drive.google.com/file/d/1KvPj-QWDxBco0Dil4bPH2JUnXtchlHr6/view?usp=sharing)
 
 
 *Platform* : Python Jupyter, Google Colab or VS Code.  
